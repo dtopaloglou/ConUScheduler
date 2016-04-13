@@ -5,6 +5,8 @@
  * LoginForm is the data structure for keeping
  * user login form data. It is used by the 'login' action of 'SiteController'.
  */
+$yii='/../../framework/yii.php';
+require_once($yii);
 class LoginForm extends CFormModel
 {
     public $username;

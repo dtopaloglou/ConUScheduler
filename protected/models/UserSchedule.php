@@ -11,6 +11,9 @@
  * @property integer $subsectionID
  * @property integer $year
  */
+$yii='/../../framework/yii.php';
+require_once($yii);
+
 class UserSchedule extends CActiveRecord
 {
     /**
